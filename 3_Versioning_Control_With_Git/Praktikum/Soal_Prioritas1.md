@@ -1,0 +1,10 @@
+# Soal Prioritas 1
+
+1. Buatlah sebuah repository Github yang sesuai dengan  format namaKelas_namaKalian.
+Buatlah folder yang berurutan dan diberi nama sesuai dengan nama soal yang kalian kerjakan. contoh penamaan
+    1_Soal_GIthub
+    2_Soal Software_Testing_Fundamental
+    3_Soal_Testing_Documentation
+seterusnya sesuai dengan nama soal yang kalian kerjakan. buat folder tersebut sampai soal rest API.
+Jawaban :
+![alt text](image.png)
