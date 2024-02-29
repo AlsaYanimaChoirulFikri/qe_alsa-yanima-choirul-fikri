@@ -1,0 +1,5 @@
+# Testing Document
+
+1. Buatlah Test Case sebanyak mungkin pada fitur login, pilih layanan sampai pilih metode pembayaran dari aplikasi ojek online dengan menggunakan format laporan yang sudah ditentukan. Letakkan kumpulan test case tersebut dalam bentuk file excel.
+Jawaban :
+https://docs.google.com/spreadsheets/d/136mUV0lzCLjeUj7coE5A_bEvSGfyjGx1Ul6UTKOFThs/edit?usp=sharing

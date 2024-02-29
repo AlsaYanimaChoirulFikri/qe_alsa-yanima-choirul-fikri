@@ -1,0 +1,5 @@
+# Testing Documentation
+
+1. Buatlah test case untuk aplikasi https://github.com/  untuk fitur register, login dan membuat repository dengan menggunakan format laporan yang sudah ditentukan. Letakkan kumpulan test case tersebut dalam bentuk file excel.
+Jawaban :
+https://docs.google.com/spreadsheets/d/1WXJKM4xmoXUnkqzubF7Baf_nyr2h3lU_cOV5HZ5vOWA/edit?usp=sharing
