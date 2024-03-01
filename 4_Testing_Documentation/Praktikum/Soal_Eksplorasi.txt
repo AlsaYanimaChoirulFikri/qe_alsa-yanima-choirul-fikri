@@ -1,0 +1,10 @@
+# Testing Documentation
+
+Lakukan pengujian non fungsional untuk aplikasi web berikut dengan menggunakan Lighthouse. Referensi mengenai Lighthouse dapat dicek di link berikut. Kriteria untuk pengujian non fungsional adalah sebagai berikut:
+a. Terdapat pengujian non fungsional untuk tampilan di web dan mobile.
+b. Terdapat screenshot hasil pengujian untuk 2 platform (web dan mobile) beserta penjelasan dari hasil pengujian yang telah dilakukan.
+c. Hasil pengujian ditulis dalam google docs.
+d. Contoh hasil pengujian dengan menggunakan Lighthouse adalah sebagai berikut:
+
+Jawaban :
+https://docs.google.com/document/d/1l9aS3t_d8CpLHeS6UxsmvHnZ1R0bA89d6gyLhbSIYh0/edit?usp=sharing
