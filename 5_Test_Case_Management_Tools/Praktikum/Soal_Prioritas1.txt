@@ -1,0 +1,7 @@
+1. Implementasikan penggunaan test case management tools untuk aplikasi ojek online dengan kriteria sebagai berikut:
+a. Menggunakan TestRail sebagai test case management tools.
+b. Terdapat 3 fitur yang dilakukan testing yaitu login, pilih layanan dan pilih metode pembayaran.
+c. Setiap test case terdapat case positif dan negatif.
+
+Jawaban :
+https://docs.google.com/document/d/1ZBL8CT_p0UJjyIe5tmf-DYRgMLfIb1ZjmUQ_kxFxQQA/edit?usp=sharing
