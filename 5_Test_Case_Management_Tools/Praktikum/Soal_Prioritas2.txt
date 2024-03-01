@@ -1,0 +1,7 @@
+1. Implementasikan penggunaan test case management tools untuk aplikasi https://github.com/  dengan kriteria sebagai berikut:
+a. Menggunakan TestRail sebagai test case management tools.
+b. Terdapat 3 fitur yang dilakukan testing yaitu register, login dan membuat repository.
+c. Setiap test case terdapat case positif dan negatif.
+
+Jawaban :
+https://docs.google.com/document/d/1LXtIyQq-ePqUNr_iy6l57K9aL5skXtOXVf-Rn3PQ9XM/edit?usp=sharing
