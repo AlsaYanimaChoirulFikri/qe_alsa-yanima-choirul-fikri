@@ -1,0 +1,7 @@
+1. Implementasikan penggunaan test case management tools untuk aplikasi web berikut dengan kriteria sebagai berikut:
+a. Menggunakan TestRail sebagai test case management tools.
+b. Terdapat 3 fitur yang dilakukan testing yaitu register, login dan menambahkan item ke dalam cart.
+c. Setiap test case terdapat case positif dan negatif.
+
+Jawaban :
+https://docs.google.com/document/d/1UBCDkOH2qI65fktk2vGK0zheStVi_tjuIfQrF6tFrF0/edit?usp=sharing
