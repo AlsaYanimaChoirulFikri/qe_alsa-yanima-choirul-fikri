@@ -1,0 +1,4 @@
+1. Buatlah simulasi terjadinya bugs pada suatu feature (Story, Task, Subtask). Deskripsikan Feature dan Bugs (minimal 2 untuk bugs) dari simulasi yang dibuat pada Jira. Lampirkan screenshot step-step pekerjaan berupa docs atau pdf.
+
+Jawaban :
+https://docs.google.com/document/d/1S9qp1KtNaY99aQeoM8KuFIIXuo5cE5tfthEYUMYYPD4/edit?usp=sharing
