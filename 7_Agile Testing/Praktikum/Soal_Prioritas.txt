@@ -1,0 +1,6 @@
+Soal Prioritas 
+
+1. Pada fase apa saja QE berperan pada proses SDLC? Sebutkan dan jelaskan peran seperti apa yang QE dapat lakukan pada setiap fase tersebut!
+2. Menurut Anda, apa tantangan ketika menerapkan agile testing? Berikan penjelasan pada masing-masing 5 poin agile testing manifesto!
+Jawaban :
+https://docs.google.com/document/d/1Wky2WLJ83pAAyh7xNk_CVi2bYLKP7Rs1M40I7AK_M7M/edit?usp=sharing
