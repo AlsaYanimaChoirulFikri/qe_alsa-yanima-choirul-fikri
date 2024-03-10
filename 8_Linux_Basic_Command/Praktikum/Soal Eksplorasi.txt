@@ -1,0 +1,8 @@
+Buatlah sebuah shell script untuk mengirim sebuah data dengan menggunakan REST API dengan kriteria sebagai berikut:
+a. API endpoint yang digunakan: https://jsonplaceholder.typicode.com/posts 
+b. HTTP Method yang digunakan adalah POST.
+c. Request body dalam format JSON dengan contoh request body seperti berikut:
+e. Pengguna dapat memasukkan judul, body dan user ID.
+f. Contoh hasil akhir adalah seperti berikut:
+
+Jawaban : https://docs.google.com/document/d/1RbLHum9TcGBjlCI6zZXXLv6NYa9d4W5-Z_hizM64xjg/edit?usp=sharing
