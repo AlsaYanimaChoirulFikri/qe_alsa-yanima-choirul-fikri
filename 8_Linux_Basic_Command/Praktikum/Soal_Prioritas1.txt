@@ -1,0 +1,7 @@
+1. Jalankan berbagai command berikut kemudian sertakan hasil screenshot command dan beserta penjelasan:
+a. Command yang berkaitan dengan operasi file: 2 command.
+b. Command yang berkaitan dengan kontrol proses: 2 command.
+c. Command yang berkaitan dengan utility: 2 command.
+2. Buatlah shell script dengan minimal 5 command dan jelaskan. Sertakan hasil screenshot command beserta penjelasan.
+
+Jawaban : https://docs.google.com/document/d/1uTVAo8lU9_E9g6UBewgKJO8D88Su4LnA9jkpSu6knzo/edit?usp=sharing

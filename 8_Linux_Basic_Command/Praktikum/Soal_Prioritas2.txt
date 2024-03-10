@@ -1,0 +1,8 @@
+Buatlah sebuah shell script untuk menjalankan tugas berikut:
+a. Membuat dua folder yaitu about_me dan favorites.
+b. Di dalam folder about_me, buat sebuah file dengan nama about_me.txt dan diisi dengan nama lengkap.
+c. Di dalam folder favorites, buat 2 file yaitu food.txt dan drinks.txt.
+d. Di dalam file foods.txt diisi dengan makanan favorit.
+e. Di dalam file drinks.txt diisi dengan minuman favorit.
+
+Jawaban : https://docs.google.com/document/d/1UpD1JjRolM5ISPcxfIs5346QnSj_nlteKsuzprg5iKI/edit?usp=sharing
