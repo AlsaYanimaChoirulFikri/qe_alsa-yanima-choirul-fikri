@@ -1,4 +1,4 @@
-# Intrudoction Basic Programming
+# Introduction Basic Programming
 
 1. Variabel dan Tipe Data: Variabel digunakan untuk menyimpan data dalam program, dengan tipe data yang menggambarkan jenis nilai yang dapat disimpan dalam variabel, seperti int (bilangan bulat), float (bilangan desimal), string (teks), dan lainnya.
 2. Operator: Operator digunakan untuk melakukan operasi pada data, seperti penambahan, pengurangan, perbandingan, dan operasi logika. Beberapa contoh operator adalah +, -, ==, &&, dan sebagainya.
