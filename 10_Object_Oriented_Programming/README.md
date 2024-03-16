@@ -8,4 +8,4 @@
 6. Polimorfisme: Polimorfisme memungkinkan objek dari kelas yang berbeda untuk merespons metode dengan cara yang berbeda, memungkinkan fleksibilitas dalam pemrograman.
 7. Abstraksi: Abstraksi adalah penyederhanaan kompleksitas dengan mengekspos detail penting dan menyembunyikan yang tidak penting, membuat kode lebih mudah dimengerti.
 8. Enkapsulasi: Enkapsulasi melibatkan penyembunyian rincian internal objek dari luar, memungkinkan kontrol akses ke atribut dan metode objek.
-9. Warisan (Inheritance): Warisan adalah konsep yang memungkinkan pembuatan kelas baru (kelas turunan) yang mewarisi atribut dan metode dari kelas yang sudah ada (kelas dasar), mempromosikan reusabilitas kode.
+9. Inheritance: Inheritance adalah konsep yang memungkinkan pembuatan kelas baru (kelas turunan) yang mewarisi atribut dan metode dari kelas yang sudah ada (kelas dasar), mempromosikan reusabilitas kode.
