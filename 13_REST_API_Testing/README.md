@@ -1,0 +1,5 @@
+# REST API Testing
+
+1. Pendekatan API Testing adalah pendekatan yang digunakan untuk menguji API dengan mengirim permintaan HTTP dan memeriksa responsnya untuk memastikan bahwa API berfungsi dengan benar dan memberikan hasil yang diharapkan.
+2. Perbedaan dengan Unit Testing: Unit Testing adalah pengujian yang dilakukan secara end-to-end, sedangkan API Testing lebih fokus pada pengujian fungsi terpisah dari API, Unit Testing biasanya dilakukan oleh pengembang, sementara API Testing dapat dilakukan oleh tester atau pengembang, Unit Testing memungkinkan akses ke source code, sedangkan API Testing tidak memerlukan akses ke source code.
+3. Tantangan dalam API Testing: Memilih parameter yang sesuai dan menentukan kombinasi parameter yang benar, Tidak ada antarmuka pengguna grafis (GUI) dalam API Testing, sehingga semua interaksi harus dilakukan melalui permintaan HTTP, Memahami dengan baik parameter dan skrip yang digunakan dalam pengujian, Mengetes penanganan kesalahan (error handling) dari setiap API untuk memastikan respons yang benar dalam situasi yang tidak terduga.
