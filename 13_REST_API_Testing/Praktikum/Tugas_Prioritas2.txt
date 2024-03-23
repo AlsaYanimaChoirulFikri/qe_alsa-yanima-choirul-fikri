@@ -1,0 +1,7 @@
+Tugas Prioritas 2
+
+Jawaban :
+GET : https://app.qase.io/public/report/e9845e0e4836f504f61cdbd20c386b942a63316d
+POST : https://app.qase.io/public/report/10591c84d10dc9fbc13bb8debc0bd6528634ef25
+PUT : https://app.qase.io/public/report/e7332f500273c7b42b7ec2abe43f895785a535dd
+DELETE : https://app.qase.io/public/report/ff26469e0bf901a140c5134e097753d32f6a06c3
