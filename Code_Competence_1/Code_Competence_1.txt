@@ -1,0 +1,9 @@
+Item Barang : https://app.qase.io/public/report/7129a7eba1fa459cc655219242e255e54f186a20
+
+Laporan : https://app.qase.io/public/report/7813cb537b597e2e733247b25c2408485db26f6e
+
+Supplier : https://app.qase.io/public/report/a6914523307cc6508e639d377cd09b6623801d69
+
+Item Paket : https://app.qase.io/public/report/05923af9f9865e68268546e492a1278f1c35c0e9
+
+Sales : https://app.qase.io/public/report/60b0efc1ca567d1b029d15bb078f4f9dd60c7f2f
