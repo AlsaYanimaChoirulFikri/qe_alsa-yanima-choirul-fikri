@@ -1,0 +1,5 @@
+# Web UI Testing with Serenity
+
+1. Web Testing with Serenity adalah pendekatan pengujian perangkat lunak yang memanfaatkan Serenity BDD, sebuah kerangka kerja pengujian yang dirancang khusus untuk mengotomatisasi dan melaporkan pengujian aplikasi web.
+2. Serenity BDD: Serenity BDD adalah kerangka kerja pengujian yang dirancang untuk mengotomatisasi pengujian aplikasi web dengan cara yang mudah dimengerti dan efisien. Kerangka kerja ini memungkinkan pengujian berbasis BDD (Behavior-Driven Development), di mana skenario pengujian ditulis dalam bahasa alami yang lebih mudah dipahami oleh pemangku kepentingan yang non-teknis.
+3. Automasi Pengujian Aplikasi Web: Dengan Serenity, tim QA dapat mengotomasi pengujian aplikasi web dengan berbagai bahasa pemrograman seperti Java, Kotlin, dan lainnya. Ini memungkinkan otomatisasi pengujian antarmuka pengguna (UI) serta pengujian fungsional dan integrasi.
