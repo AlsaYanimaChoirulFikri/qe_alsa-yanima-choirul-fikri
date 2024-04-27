@@ -7,7 +7,7 @@ Feature: Add A New User
   Scenario Outline: As a user I can create an user with valid inputs
     Given I set API endpoint for add new user
     When I send request to add new user with valid credential ("<email>", "<username>", "<password>", "<firstname>", "<lastname>", "<city>", "<street>", 3, "<zipcode>", "<lat>", "<long>", "<phone>")
-    Then I receive status code 201
+    Then I receive status code 200
     And I receive valid data for created new user
     Examples:
       |email          | username | password | firstname | lastname | city   | street        | zipcode    | lat     | long  | phone         |

@@ -20,4 +20,9 @@ public class DeleteUserSteps {
     public void sendDeleteUserRequest() {
         deleteUser.sendDeleteUserRequest();
     }
+
+    @Then("I receive status code 204")
+    public void receiveStatusCode204() {
+        deleteUser.receiveStatusCode204();
+    }
 }

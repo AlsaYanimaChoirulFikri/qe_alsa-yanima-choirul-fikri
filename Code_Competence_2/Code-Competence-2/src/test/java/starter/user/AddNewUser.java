@@ -51,11 +51,9 @@ public class AddNewUser {
 
         requestBody.put("phone", phone);
 
-        String token = GenerateToken.generateToken();
-
         SerenityRest.given()
                 .header("Content-Type", "application/json")
-                .header("Authorization", "Bearer " + token)
+                .header("Authorization", "Bearer ")
                 .body(requestBody.toString())
                 .post(setApiAddNewUser());
     }

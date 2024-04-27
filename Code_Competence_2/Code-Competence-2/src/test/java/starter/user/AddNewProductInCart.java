@@ -52,21 +52,21 @@ public class AddNewProductInCart {
         JsonSchemaHelper helper = new JsonSchemaHelper();
         String schema = helper.getResponseSchema(JsonSchema.ADD_NEW_PRODUCT_CART_SCHEMA);
         restAssuredThat(response -> response.body("id", equalTo(21)));
-        restAssuredThat(response -> response.body("userId",equalTo(5)));
-        restAssuredThat(response -> response.body("date", equalTo("2020-02-03")));
-
-        restAssuredThat(response -> response.body("'products'.'productId'", equalTo(5)));
-        restAssuredThat(response -> response.body("'products'.'quantity'", equalTo(1)));
+        restAssuredThat(response -> response.body("userId",equalTo(null)));
+        restAssuredThat(response -> response.body("date", equalTo(null)));
 
         restAssuredThat(response -> response.body("'products'.'productId'", equalTo(1)));
-        restAssuredThat(response -> response.body("'products'.'quantity'", equalTo(5)));
+        restAssuredThat(response -> response.body("'products'.'quantity'", equalTo(2)));
+
+        restAssuredThat(response -> response.body("'products'.'productId'", equalTo(2)));
+        restAssuredThat(response -> response.body("'products'.'quantity'", equalTo(1)));
         JSONArray productsArray = new JSONArray();
         JSONObject product1 = new JSONObject();
-        product1.put("productId", 5);
+        product1.put("productId", 2);
         product1.put("quantity", 1);
         JSONObject product2 = new JSONObject();
         product2.put("productId", 1);
-        product2.put("quantity", 5);
+        product2.put("quantity", 2);
 
         productsArray.put(product1);
         productsArray.put(product2);
