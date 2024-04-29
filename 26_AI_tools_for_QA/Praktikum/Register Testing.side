@@ -1,0 +1,241 @@
+{
+  "id": "fa488582-dd77-42e4-b8d3-163210073aff",
+  "version": "2.0",
+  "name": "Register Testing",
+  "url": "https://www.demoblaze.com",
+  "tests": [{
+    "id": "c97a4933-d87c-449d-821f-afb56175cd46",
+    "name": "Register Testing",
+    "commands": [{
+      "id": "b5b2e5d9-9552-4b83-b977-e436d2c62d4d",
+      "comment": "",
+      "command": "open",
+      "target": "/index.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ef8dafc8-adbd-45ff-bd57-a1e9663b5b93",
+      "comment": "",
+      "command": "eyesSetViewportSize",
+      "target": "1361x837",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "628b4d07-fc2f-46bf-acbe-c6e6cae70c5b",
+      "comment": "",
+      "command": "eyesCheckElement",
+      "target": "id=signin2",
+      "targets": [
+        ["id=signin2", "id"],
+        ["linkText=Sign up", "linkText"],
+        ["css=#signin2", "css:finder"],
+        ["xpath=//a[contains(text(),'Sign up')]", "xpath:link"],
+        ["xpath=//a[@id='signin2']", "xpath:attributes"],
+        ["xpath=//div[@id='navbarExample']/ul/li[8]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[6]", "xpath:href"],
+        ["xpath=//li[8]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Sign up')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fc3f98d1-b2ca-4953-a198-20f8f9fd6843",
+      "comment": "",
+      "command": "click",
+      "target": "id=signin2",
+      "targets": [
+        ["id=signin2", "id"],
+        ["linkText=Sign up", "linkText"],
+        ["css=#signin2", "css:finder"],
+        ["xpath=//a[contains(text(),'Sign up')]", "xpath:link"],
+        ["xpath=//a[@id='signin2']", "xpath:attributes"],
+        ["xpath=//div[@id='navbarExample']/ul/li[8]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[6]", "xpath:href"],
+        ["xpath=//li[8]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Sign up')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9926b742-77e6-481b-a6cb-7309cd0dee19",
+      "comment": "",
+      "command": "click",
+      "target": "id=sign-username",
+      "targets": [
+        ["id=sign-username", "id"],
+        ["css=#sign-username", "css:finder"],
+        ["xpath=//input[@id='sign-username']", "xpath:attributes"],
+        ["xpath=//div[@id='signInModal']/div/div/div[2]/form/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div[2]/form/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2ab678c8-1d65-4044-b382-d7e798b88347",
+      "comment": "",
+      "command": "type",
+      "target": "id=sign-username",
+      "targets": [
+        ["id=sign-username", "id"],
+        ["css=#sign-username", "css:finder"],
+        ["xpath=//input[@id='sign-username']", "xpath:attributes"],
+        ["xpath=//div[@id='signInModal']/div/div/div[2]/form/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div[2]/form/div/input", "xpath:position"]
+      ],
+      "value": "halo@gmail.com"
+    }, {
+      "id": "a048967d-073b-4f20-8675-a693b20ef561",
+      "comment": "",
+      "command": "click",
+      "target": "id=sign-password",
+      "targets": [
+        ["id=sign-password", "id"],
+        ["css=#sign-password", "css:finder"],
+        ["xpath=//input[@id='sign-password']", "xpath:attributes"],
+        ["xpath=//div[@id='signInModal']/div/div/div[2]/form/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div[2]/form/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "051cb2e9-2e24-44f3-aa69-d729d4d557ef",
+      "comment": "",
+      "command": "type",
+      "target": "id=sign-password",
+      "targets": [
+        ["id=sign-password", "id"],
+        ["css=#sign-password", "css:finder"],
+        ["xpath=//input[@id='sign-password']", "xpath:attributes"],
+        ["xpath=//div[@id='signInModal']/div/div/div[2]/form/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div[2]/form/div[2]/input", "xpath:position"]
+      ],
+      "value": "halogais"
+    }, {
+      "id": "b7e08bd8-2380-4700-9f0b-d4432e45e6d4",
+      "comment": "",
+      "command": "eyesCheckElement",
+      "target": "css=#signInModal .btn-primary",
+      "targets": [
+        ["css=#signInModal .btn-primary", "css:finder"],
+        ["xpath=(//button[@type='button'])[6]", "xpath:attributes"],
+        ["xpath=//div[@id='signInModal']/div/div/div[3]/button[2]", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/div[3]/button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Sign up')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "bb8939b5-6475-4289-a6fb-217823f2c784",
+      "comment": "",
+      "command": "click",
+      "target": "css=#signInModal .btn-primary",
+      "targets": [
+        ["css=#signInModal .btn-primary", "css:finder"],
+        ["xpath=(//button[@type='button'])[6]", "xpath:attributes"],
+        ["xpath=//div[@id='signInModal']/div/div/div[3]/button[2]", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div/div[3]/button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Sign up')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "849d97ed-0182-4e0d-9f56-4c800c2effd4",
+      "comment": "",
+      "command": "assertAlert",
+      "target": "This user already exist.",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7070db51-056e-4ce4-8bbd-7bf7444dd4d6",
+      "comment": "",
+      "command": "click",
+      "target": "id=sign-username",
+      "targets": [
+        ["id=sign-username", "id"],
+        ["css=#sign-username", "css:finder"],
+        ["xpath=//input[@id='sign-username']", "xpath:attributes"],
+        ["xpath=//div[@id='signInModal']/div/div/div[2]/form/div/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div/div[2]/form/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a078e505-023a-488b-8edf-b094509506f6",
+      "comment": "",
+      "command": "type",
+      "target": "id=sign-username",
+      "targets": [
+        ["id=sign-username", "id"],
+        ["css=#sign-username", "css:finder"],
+        ["xpath=//input[@id='sign-username']", "xpath:attributes"],
+        ["xpath=//div[@id='signInModal']/div/div/div[2]/form/div/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div/div[2]/form/div/input", "xpath:position"]
+      ],
+      "value": "makangais@gmail.com"
+    }, {
+      "id": "c727f771-fbf5-4115-bbf8-94b4a5c0d827",
+      "comment": "",
+      "command": "eyesCheckElement",
+      "target": "css=#signInModal .btn-primary",
+      "targets": [
+        ["css=#signInModal .btn-primary", "css:finder"],
+        ["xpath=(//button[@type='button'])[6]", "xpath:attributes"],
+        ["xpath=//div[@id='signInModal']/div/div/div[3]/button[2]", "xpath:idRelative"],
+        ["xpath=//div[6]/div/div/div[3]/button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Sign up')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9207e6df-5049-428f-9118-4ab6788191d2",
+      "comment": "",
+      "command": "click",
+      "target": "css=#signInModal .btn-primary",
+      "targets": [
+        ["css=#signInModal .btn-primary", "css:finder"],
+        ["xpath=(//button[@type='button'])[6]", "xpath:attributes"],
+        ["xpath=//div[@id='signInModal']/div/div/div[3]/button[2]", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/div[3]/button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Sign up')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "26cd35f9-9805-440f-b47d-a12e70f4432a",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["c97a4933-d87c-449d-821f-afb56175cd46"]
+  }],
+  "urls": ["https://www.demoblaze.com/"],
+  "plugins": [{
+    "id": "fbnkflkahhlmhdgkddaafgnnokifobik",
+    "name": "Applitools",
+    "version": "1.0.0"
+  }],
+  "snapshot": {
+    "globalConfig": {
+      "snapshot": "const { Eyes, Target } = require('@applitools/eyes-selenium');global.Target = Target;const { ConsoleLogHandler, BatchInfo, AccessibilityLevel, AccessibilityGuidelinesVersion } = require('@applitools/eyes-sdk-core');let apiKey = process.env.APPLITOOLS_API_KEY, serverUrl = process.env.APPLITOOLS_SERVER_URL, appName = \"Register Testing\", batchId = configuration.runId, batchName;"
+    },
+    "suites": [{
+      "name": "Default Suite",
+      "persistSession": false,
+      "snapshot": {
+        "hook": "beforeAll(async () => {batchName = \"Default Suite\";});beforeEach(async () => {global.eyes = Eyes.fromBrowserInfo(serverUrl, configuration.params.eyesDisabled, configuration.params.eyesRendering ? { browser: configuration.params.eyesRendering } : undefined);\neyes.setApiKey(apiKey);eyes.getBaseAgentId = () => (\"eyes.seleniumide.runner.\" + (eyes._isVisualGrid ? \"visualgrid\" : \"local\") + \"/1.14.0\");\neyes.setAgentId(\"eyes.seleniumide.runner.\" + (eyes._isVisualGrid ? \"visualgrid\" : \"local\") + \"/1.14.0\");\neyes.setBatch(new BatchInfo(batchName, undefined, batchId));\nif(!eyes._isVisualGrid) {\n\teyes.setHideScrollbars(true);\n\teyes.setStitchMode(\"CSS\");\n}\neyes.setSendDom(configuration.params.eyesDomUploadEnabled === undefined ? true : configuration.params.eyesDomUploadEnabled);\nif (configuration.params.eyesLogsEnabled) {\n\teyes.setLogHandler(new ConsoleLogHandler(true));\n}\nif (configuration.params.eyesAccessibilityLevel) {\n\tconst _config = eyes.getConfiguration();\n\t_config.setAccessibilityValidation(\n\t\t{\n\t\t\tlevel: AccessibilityLevel[configuration.params.eyesAccessibilityLevel],\n\t\t\tguidelinesVersion: AccessibilityGuidelinesVersion.WCAG_2_0,\n\t\t}\n\t)\n\teyes.setConfiguration(_config);\n}});afterEach(async () => {if (eyes._isOpen) {eyes.getEyesRunner ? await eyes.getEyesRunner().getAllResults() : await eyes.close();}});"
+      }
+    }],
+    "tests": [{
+      "id": "c97a4933-d87c-449d-821f-afb56175cd46",
+      "snapshot": {
+        "commands": {
+          "ef8dafc8-adbd-45ff-bd57-a1e9663b5b93": "await eyes.setViewportSize({width: 1361, height: 837});",
+          "628b4d07-fc2f-46bf-acbe-c6e6cae70c5b": "if (!opts.isNested) {await driver.wait(until.elementLocated(By.id(`signin2`)), configuration.timeout); await eyes.check(\"\" || (new URL(await driver.getCurrentUrl())).pathname, Target.region(By.id(`signin2`)).webHook(preRenderHook));}",
+          "b7e08bd8-2380-4700-9f0b-d4432e45e6d4": "if (!opts.isNested) {await driver.wait(until.elementLocated(By.css(`#signInModal .btn-primary`)), configuration.timeout); await eyes.check(\"\" || (new URL(await driver.getCurrentUrl())).pathname, Target.region(By.css(`#signInModal .btn-primary`)).webHook(preRenderHook));}",
+          "c727f771-fbf5-4115-bbf8-94b4a5c0d827": "if (!opts.isNested) {await driver.wait(until.elementLocated(By.css(`#signInModal .btn-primary`)), configuration.timeout); await eyes.check(\"\" || (new URL(await driver.getCurrentUrl())).pathname, Target.region(By.css(`#signInModal .btn-primary`)).webHook(preRenderHook));}"
+        },
+        "setupHooks": ["const _driver = driver;driver = await eyes.open(driver, appName, \"Register Testing\");global.preRenderHook = \"\";"],
+        "teardownHooks": ["driver = _driver;"]
+      }
+    }]
+  },
+  "dependencies": {
+    "@applitools/eyes-selenium": "4.44.0"
+  },
+  "jest": {
+    "extraGlobals": ["Math"]
+  }
+}

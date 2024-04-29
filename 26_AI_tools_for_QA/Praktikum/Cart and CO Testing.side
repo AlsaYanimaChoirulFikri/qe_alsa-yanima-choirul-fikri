@@ -1,0 +1,371 @@
+{
+  "id": "b53bc351-6318-45ac-8b1e-f1a7ca5f03b8",
+  "version": "2.0",
+  "name": "Cart and CO Testing",
+  "url": "https://www.demoblaze.com",
+  "tests": [{
+    "id": "924d3ecb-d53c-4aa8-bb65-fa903ed6d8e3",
+    "name": "Cart and CO Testing",
+    "commands": [{
+      "id": "addaaba8-78f8-4017-a28e-14d5ec61f692",
+      "comment": "",
+      "command": "open",
+      "target": "/index.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5d8b4a4d-1e70-426d-8275-a20574d47bca",
+      "comment": "",
+      "command": "eyesSetViewportSize",
+      "target": "1114x837",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ce0d59c5-726f-4a6f-bc73-bbfec704356c",
+      "comment": "",
+      "command": "eyesCheckElement",
+      "target": "id=cartur",
+      "targets": [
+        ["id=cartur", "id"],
+        ["linkText=Cart", "linkText"],
+        ["css=#cartur", "css:finder"],
+        ["xpath=//a[contains(text(),'Cart')]", "xpath:link"],
+        ["xpath=//a[@id='cartur']", "xpath:attributes"],
+        ["xpath=//div[@id='navbarExample']/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'cart.html')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Cart')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "55fe4bb4-91fa-4148-acf2-9ed7bccbfecc",
+      "comment": "",
+      "command": "click",
+      "target": "id=cartur",
+      "targets": [
+        ["id=cartur", "id"],
+        ["linkText=Cart", "linkText"],
+        ["css=#cartur", "css:finder"],
+        ["xpath=//a[contains(text(),'Cart')]", "xpath:link"],
+        ["xpath=//a[@id='cartur']", "xpath:attributes"],
+        ["xpath=//div[@id='navbarExample']/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'cart.html')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Cart')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f57aa84e-32be-48b7-955b-4a77607976ea",
+      "comment": "",
+      "command": "eyesCheckElement",
+      "target": "css=.active > .nav-link",
+      "targets": [
+        ["css=.active > .nav-link", "css:finder"],
+        ["xpath=//div[@id='navbarExample']/ul/li/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'index.html')])[2]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3e4b0ebb-9572-4fdf-b613-a6873196daf4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.active > .nav-link",
+      "targets": [
+        ["css=.active > .nav-link", "css:finder"],
+        ["xpath=//div[@id='navbarExample']/ul/li/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'index.html')])[2]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0377b59e-2a45-42b0-8400-d7c169a10ae3",
+      "comment": "",
+      "command": "eyesCheckElement",
+      "target": "linkText=Samsung galaxy s7",
+      "targets": [
+        ["linkText=Samsung galaxy s7", "linkText"],
+        ["css=.col-lg-4:nth-child(4) .hrefch", "css:finder"],
+        ["xpath=//a[contains(text(),'Samsung galaxy s7')]", "xpath:link"],
+        ["xpath=//div[@id='tbodyid']/div[4]/div/div/h4/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'prod.html?idp_=4')])[2]", "xpath:href"],
+        ["xpath=//div[4]/div/div/h4/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Samsung galaxy s7')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a03271e1-4b20-4751-889a-8fb3f7f6cff0",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Samsung galaxy s7",
+      "targets": [
+        ["linkText=Samsung galaxy s7", "linkText"],
+        ["css=.col-lg-4:nth-child(4) .hrefch", "css:finder"],
+        ["xpath=//a[contains(text(),'Samsung galaxy s7')]", "xpath:link"],
+        ["xpath=//div[@id='tbodyid']/div[4]/div/div/h4/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'prod.html?idp_=4')])[2]", "xpath:href"],
+        ["xpath=//div[4]/div/div/h4/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Samsung galaxy s7')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8a979985-82f1-4a09-990b-741185718ef9",
+      "comment": "",
+      "command": "eyesCheckElement",
+      "target": "linkText=Add to cart",
+      "targets": [
+        ["linkText=Add to cart", "linkText"],
+        ["css=.btn-success", "css:finder"],
+        ["xpath=//a[contains(text(),'Add to cart')]", "xpath:link"],
+        ["xpath=//a[@onclick='addToCart(4)']", "xpath:attributes"],
+        ["xpath=//div[@id='tbodyid']/div[2]/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[9]", "xpath:href"],
+        ["xpath=//div[2]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Add to cart')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ffe081ca-e7f6-4e35-98d0-20a1e8fd9d4f",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Add to cart",
+      "targets": [
+        ["linkText=Add to cart", "linkText"],
+        ["css=.btn-success", "css:finder"],
+        ["xpath=//a[contains(text(),'Add to cart')]", "xpath:link"],
+        ["xpath=//a[@onclick='addToCart(4)']", "xpath:attributes"],
+        ["xpath=//div[@id='tbodyid']/div[2]/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[9]", "xpath:href"],
+        ["xpath=//div[2]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Add to cart')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3761fd03-faf1-4eca-bad5-e18e1758a765",
+      "comment": "",
+      "command": "eyesCheckElement",
+      "target": "id=cartur",
+      "targets": [
+        ["id=cartur", "id"],
+        ["linkText=Cart", "linkText"],
+        ["css=#cartur", "css:finder"],
+        ["xpath=//a[contains(text(),'Cart')]", "xpath:link"],
+        ["xpath=//a[@id='cartur']", "xpath:attributes"],
+        ["xpath=//div[@id='navbarExample']/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'cart.html')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Cart')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ce5209a5-8737-4068-b69f-6ca334a3d470",
+      "comment": "",
+      "command": "click",
+      "target": "id=cartur",
+      "targets": [
+        ["id=cartur", "id"],
+        ["linkText=Cart", "linkText"],
+        ["css=#cartur", "css:finder"],
+        ["xpath=//a[contains(text(),'Cart')]", "xpath:link"],
+        ["xpath=//a[@id='cartur']", "xpath:attributes"],
+        ["xpath=//div[@id='navbarExample']/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'cart.html')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Cart')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ccda5516-b541-432b-9f64-e561637e2cab",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "id=cartur",
+      "targets": [
+        ["id=cartur", "id"],
+        ["linkText=Cart", "linkText"],
+        ["css=#cartur", "css:finder"],
+        ["xpath=//a[contains(text(),'Cart')]", "xpath:link"],
+        ["xpath=//a[@id='cartur']", "xpath:attributes"],
+        ["xpath=//div[@id='navbarExample']/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'cart.html')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Cart')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8eb0b0ff-0ff6-4495-a2c1-19797533ed3f",
+      "comment": "",
+      "command": "eyesCheckElement",
+      "target": "css=.success:nth-child(2) a",
+      "targets": [
+        ["css=.success:nth-child(2) a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Delete')])[2]", "xpath:link"],
+        ["xpath=//a[@onclick=\"deleteItem('c5e2de82-6cb9-4733-c819-4f2d023f01ec')\"]", "xpath:attributes"],
+        ["xpath=//tbody[@id='tbodyid']/tr[2]/td[4]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[9]", "xpath:href"],
+        ["xpath=//tr[2]/td[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9cb8aa13-1b13-472b-93c4-219139af4b88",
+      "comment": "",
+      "command": "click",
+      "target": "css=.success:nth-child(2) a",
+      "targets": [
+        ["css=.success:nth-child(2) a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Delete')])[2]", "xpath:link"],
+        ["xpath=//a[@onclick=\"deleteItem('c5e2de82-6cb9-4733-c819-4f2d023f01ec')\"]", "xpath:attributes"],
+        ["xpath=//tbody[@id='tbodyid']/tr[2]/td[4]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[9]", "xpath:href"],
+        ["xpath=//tr[2]/td[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7e38ef04-5d14-405a-9b60-37a258a2c9c6",
+      "comment": "",
+      "command": "eyesCheckElement",
+      "target": "css=.btn-success",
+      "targets": [
+        ["css=.btn-success", "css:finder"],
+        ["xpath=(//button[@type='button'])[30]", "xpath:attributes"],
+        ["xpath=//div[@id='page-wrapper']/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Place Order')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "aef026e2-846c-4dec-a850-fbb3389d86c2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-success",
+      "targets": [
+        ["css=.btn-success", "css:finder"],
+        ["xpath=(//button[@type='button'])[30]", "xpath:attributes"],
+        ["xpath=//div[@id='page-wrapper']/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Place Order')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "856c7186-e587-4b5f-af6d-a3798cbc746b",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "css=.btn-success",
+      "targets": [
+        ["css=.btn-success", "css:finder"],
+        ["xpath=(//button[@type='button'])[30]", "xpath:attributes"],
+        ["xpath=//div[@id='page-wrapper']/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Place Order')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "66037549-090d-4c45-b8b7-f170ebac3717",
+      "comment": "",
+      "command": "eyesCheckElement",
+      "target": "css=#orderModal .btn-primary",
+      "targets": [
+        ["css=#orderModal .btn-primary", "css:finder"],
+        ["xpath=(//button[@type='button'])[9]", "xpath:attributes"],
+        ["xpath=//div[@id='orderModal']/div/div/div[3]/button[2]", "xpath:idRelative"],
+        ["xpath=//div[6]/div/div/div[3]/button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Purchase')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7e1b1bd4-c676-49ef-8673-30aa9ce1f753",
+      "comment": "",
+      "command": "click",
+      "target": "css=#orderModal .btn-primary",
+      "targets": [
+        ["css=#orderModal .btn-primary", "css:finder"],
+        ["xpath=(//button[@type='button'])[9]", "xpath:attributes"],
+        ["xpath=//div[@id='orderModal']/div/div/div[3]/button[2]", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/div[3]/button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Purchase')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e76e1095-5dd9-4107-a11c-3ce244295981",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "css=#orderModal .btn-primary",
+      "targets": [
+        ["css=#orderModal .btn-primary", "css:finder"],
+        ["xpath=(//button[@type='button'])[9]", "xpath:attributes"],
+        ["xpath=//div[@id='orderModal']/div/div/div[3]/button[2]", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/div[3]/button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Purchase')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2fe0d320-f682-4e8a-8e46-359c3d04cac5",
+      "comment": "",
+      "command": "assertAlert",
+      "target": "Please fill out Name and Creditcard.",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2e334c43-b550-4d30-8fe5-a2c54aa21f67",
+      "comment": "",
+      "command": "click",
+      "target": "css=#orderModal .btn-secondary",
+      "targets": [
+        ["css=#orderModal .btn-secondary", "css:finder"],
+        ["xpath=(//button[@type='button'])[8]", "xpath:attributes"],
+        ["xpath=//div[@id='orderModal']/div/div/div[3]/button", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/div[3]/button", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "ba43ddec-7e46-4a32-8b1c-c604da6ed18d",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["924d3ecb-d53c-4aa8-bb65-fa903ed6d8e3"]
+  }],
+  "urls": ["https://www.demoblaze.com/"],
+  "plugins": [{
+    "id": "fbnkflkahhlmhdgkddaafgnnokifobik",
+    "name": "Applitools",
+    "version": "1.0.0"
+  }],
+  "snapshot": {
+    "globalConfig": {
+      "snapshot": "const { Eyes, Target } = require('@applitools/eyes-selenium');global.Target = Target;const { ConsoleLogHandler, BatchInfo, AccessibilityLevel, AccessibilityGuidelinesVersion } = require('@applitools/eyes-sdk-core');let apiKey = process.env.APPLITOOLS_API_KEY, serverUrl = process.env.APPLITOOLS_SERVER_URL, appName = \"Cart and CO Testing\", batchId = configuration.runId, batchName;"
+    },
+    "suites": [{
+      "name": "Default Suite",
+      "persistSession": false,
+      "snapshot": {
+        "hook": "beforeAll(async () => {batchName = \"Default Suite\";});beforeEach(async () => {global.eyes = Eyes.fromBrowserInfo(serverUrl, configuration.params.eyesDisabled, configuration.params.eyesRendering ? { browser: configuration.params.eyesRendering } : undefined);\neyes.setApiKey(apiKey);eyes.getBaseAgentId = () => (\"eyes.seleniumide.runner.\" + (eyes._isVisualGrid ? \"visualgrid\" : \"local\") + \"/1.14.0\");\neyes.setAgentId(\"eyes.seleniumide.runner.\" + (eyes._isVisualGrid ? \"visualgrid\" : \"local\") + \"/1.14.0\");\neyes.setBatch(new BatchInfo(batchName, undefined, batchId));\nif(!eyes._isVisualGrid) {\n\teyes.setHideScrollbars(true);\n\teyes.setStitchMode(\"CSS\");\n}\neyes.setSendDom(configuration.params.eyesDomUploadEnabled === undefined ? true : configuration.params.eyesDomUploadEnabled);\nif (configuration.params.eyesLogsEnabled) {\n\teyes.setLogHandler(new ConsoleLogHandler(true));\n}\nif (configuration.params.eyesAccessibilityLevel) {\n\tconst _config = eyes.getConfiguration();\n\t_config.setAccessibilityValidation(\n\t\t{\n\t\t\tlevel: AccessibilityLevel[configuration.params.eyesAccessibilityLevel],\n\t\t\tguidelinesVersion: AccessibilityGuidelinesVersion.WCAG_2_0,\n\t\t}\n\t)\n\teyes.setConfiguration(_config);\n}});afterEach(async () => {if (eyes._isOpen) {eyes.getEyesRunner ? await eyes.getEyesRunner().getAllResults() : await eyes.close();}});"
+      }
+    }],
+    "tests": [{
+      "id": "924d3ecb-d53c-4aa8-bb65-fa903ed6d8e3",
+      "snapshot": {
+        "commands": {
+          "5d8b4a4d-1e70-426d-8275-a20574d47bca": "await eyes.setViewportSize({width: 1114, height: 837});",
+          "ce0d59c5-726f-4a6f-bc73-bbfec704356c": "if (!opts.isNested) {await driver.wait(until.elementLocated(By.id(`cartur`)), configuration.timeout); await eyes.check(\"\" || (new URL(await driver.getCurrentUrl())).pathname, Target.region(By.id(`cartur`)).webHook(preRenderHook));}",
+          "f57aa84e-32be-48b7-955b-4a77607976ea": "if (!opts.isNested) {await driver.wait(until.elementLocated(By.css(`.active > .nav-link`)), configuration.timeout); await eyes.check(\"\" || (new URL(await driver.getCurrentUrl())).pathname, Target.region(By.css(`.active > .nav-link`)).webHook(preRenderHook));}",
+          "0377b59e-2a45-42b0-8400-d7c169a10ae3": "if (!opts.isNested) {await driver.wait(until.elementLocated(By.linkText(`Samsung galaxy s7`)), configuration.timeout); await eyes.check(\"\" || (new URL(await driver.getCurrentUrl())).pathname, Target.region(By.linkText(`Samsung galaxy s7`)).webHook(preRenderHook));}",
+          "8a979985-82f1-4a09-990b-741185718ef9": "if (!opts.isNested) {await driver.wait(until.elementLocated(By.linkText(`Add to cart`)), configuration.timeout); await eyes.check(\"\" || (new URL(await driver.getCurrentUrl())).pathname, Target.region(By.linkText(`Add to cart`)).webHook(preRenderHook));}",
+          "3761fd03-faf1-4eca-bad5-e18e1758a765": "if (!opts.isNested) {await driver.wait(until.elementLocated(By.id(`cartur`)), configuration.timeout); await eyes.check(\"\" || (new URL(await driver.getCurrentUrl())).pathname, Target.region(By.id(`cartur`)).webHook(preRenderHook));}",
+          "8eb0b0ff-0ff6-4495-a2c1-19797533ed3f": "if (!opts.isNested) {await driver.wait(until.elementLocated(By.css(`.success:nth-child(2) a`)), configuration.timeout); await eyes.check(\"\" || (new URL(await driver.getCurrentUrl())).pathname, Target.region(By.css(`.success:nth-child(2) a`)).webHook(preRenderHook));}",
+          "7e38ef04-5d14-405a-9b60-37a258a2c9c6": "if (!opts.isNested) {await driver.wait(until.elementLocated(By.css(`.btn-success`)), configuration.timeout); await eyes.check(\"\" || (new URL(await driver.getCurrentUrl())).pathname, Target.region(By.css(`.btn-success`)).webHook(preRenderHook));}",
+          "66037549-090d-4c45-b8b7-f170ebac3717": "if (!opts.isNested) {await driver.wait(until.elementLocated(By.css(`#orderModal .btn-primary`)), configuration.timeout); await eyes.check(\"\" || (new URL(await driver.getCurrentUrl())).pathname, Target.region(By.css(`#orderModal .btn-primary`)).webHook(preRenderHook));}"
+        },
+        "setupHooks": ["const _driver = driver;driver = await eyes.open(driver, appName, \"Cart and CO Testing\");global.preRenderHook = \"\";"],
+        "teardownHooks": ["driver = _driver;"]
+      }
+    }]
+  },
+  "dependencies": {
+    "@applitools/eyes-selenium": "4.44.0"
+  },
+  "jest": {
+    "extraGlobals": ["Math"]
+  }
+}
