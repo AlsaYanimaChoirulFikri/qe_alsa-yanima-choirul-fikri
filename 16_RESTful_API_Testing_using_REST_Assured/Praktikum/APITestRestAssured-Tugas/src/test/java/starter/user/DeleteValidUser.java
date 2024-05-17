@@ -10,14 +10,13 @@ public class DeleteValidUser {
     private static String url = "https://jsonplaceholder.typicode.com/";
 
     @Step("I set API endpoint for delete user with valid id")
-    public String setApiDeleteEndpoint() {
+    public String setDeleteValidUserSteps() {
         return url + "posts/1";
     }
 
     @Step("I send request to delete user with valid ID")
     public void sendDeleteUserRequest() {
-
-        SerenityRest.given().delete(setApiDeleteEndpoint());
+        SerenityRest.given().delete(setDeleteValidUserSteps());
     }
 
     @Step("I receive status code 200")

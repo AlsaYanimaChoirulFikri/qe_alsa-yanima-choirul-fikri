@@ -1,3 +1,4 @@
+@CreateUser
 Feature: Create an user
   As a user
   I want to create a new user
@@ -9,4 +10,4 @@ Feature: Create an user
     And I receive valid data for create new user
     Examples:
       | id  | userId | title  | body |
-      | 1   | 1      | title  | body |
+      | 1   | userId      | title  | body |

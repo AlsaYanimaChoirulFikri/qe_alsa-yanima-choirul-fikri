@@ -4,24 +4,24 @@ import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import net.thucydides.core.annotations.Steps;
+import starter.user.GetUserInvalidID;
 
 public class GetUserInvalidIDSteps {
-
-    @Steps(shared = true)
-    GetUserInvalidIDSteps getUserInvalidIDSteps;
+    @Steps
+    GetUserInvalidID getUserInvalidID;
 
     @Given("I set API endpoint with an invalid ID")
     public void setApiEndInvalidId(){
-        getUserInvalidIDSteps.setApiEndInvalidId();
+        getUserInvalidID.setApiEndInvalidId();
     }
 
     @When("I send request using invalid ID")
     public void sendRequestInvalidId(){
-        getUserInvalidIDSteps.sendRequestInvalidId();
+        getUserInvalidID.sendRequestInvalidId();
     }
 
     @Then("I receive error message and \"404 Not Found\" response")
     public void receive404(){
-        getUserInvalidIDSteps.receive404();
+        getUserInvalidID.receive404();
     }
 }

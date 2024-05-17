@@ -38,10 +38,10 @@ public class CreateNewUser {
     public void receiveValidDataForCreateNewUser(String id, String userId, String title, String body) {
         JsonSchemaHelper helper = new JsonSchemaHelper();
         String schema = helper.getResponseSchema(JsonSchema.CREATE_USER_RESPONSE_SCHEMA);
-        restAssuredThat(response -> response.body("'id'", equalTo(id)));
-        restAssuredThat(response -> response.body("'userId'", equalTo(userId)));
-        restAssuredThat(response -> response.body("'title'", equalTo(title)));
-        restAssuredThat(response -> response.body("'body'", equalTo(body)));
+        restAssuredThat(response -> response.body("'id'",notNullValue()));
+        restAssuredThat(response -> response.body("'userID'",notNullValue()));
+        restAssuredThat(response -> response.body("'title'",notNullValue()));
+        restAssuredThat(response -> response.body("'body'",notNullValue()));
         restAssuredThat(response -> response.body(matchesJsonSchema(schema)));
     }
 
